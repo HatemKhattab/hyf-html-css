@@ -1,0 +1,206 @@
+body {
+	margin: 0;
+}
+.info {
+  display: flex;
+  align-items: center;
+  background: url("http://photouploads.com/images/5c678d.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+.info img {
+	  width: 200px;
+	  height: 200px;
+	  border-radius: 50%;
+	  margin-top: 2em;
+}
+
+.info h1 {
+	color: #00bfff;
+	font-family: Roboto;
+	font-size: 4em;
+}
+
+.info h2 {
+	color: #ff9933;;
+	font-family: verdana;
+	font-size: 2em;
+}
+
+.about-me {
+	background-color: #00bfff;
+	color: #fff;
+	padding: 40px;
+}
+
+.about-me h1 {
+	font-family: Ubuntu;
+	font-size: 1.75em;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #000; 
+}
+
+.about-me p {
+	margin-bottom: 0;
+	font-family: Roboto;
+	font-size: 1.5em;
+}
+
+.about-me .icon {
+	color: black;
+	font-size: 1.5em;
+	padding: 10px;
+}
+.education {
+	background-color: #ff9933;
+	color: white;
+	font-family: verdana;
+	font-size: 1.5em;
+	padding: 40px;
+}
+
+.education h1 {
+	font-family: Ubuntu;
+	font-size: 1.4em;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+	color: #000;
+}
+
+.education p {
+	margin-bottom: 0;
+}
+
+.education .icon {
+	color: black;
+	font-size: 1.25em;
+	padding: 10px;
+}
+
+.experience {
+	background-color: #00bfff;
+	padding: 40px;
+	font-family: Roboto;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.experience h1 {
+	font-family: Ubuntu;
+	font-size: 1.4em;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #000;
+}
+
+.experience .row {
+  padding: 10px;
+}
+
+.experience .icon {
+	color: black;
+	font-size: 1.25em;
+	padding: 10px;
+}
+
+.learning-strategies {
+	background-color: #ff9933;
+	color: white;
+	font-family: verdana;
+	font-size: 1.5em;
+	padding: 40px;
+}
+
+.learning-strategies h1 {
+	font-family: Ubuntu;
+	font-size: 1.4em;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #000;
+}
+
+.learning-strategies ul {
+	margin-bottom: 0;
+	list-style-type: none;
+}
+
+.learning-strategies ul li a {
+	text-decoration: none;
+	color: white; 
+}
+
+.learning-strategies ul li  {
+  padding: 10px; 
+}
+
+.learning-strategies .icon {
+	color: black;
+	font-size: 1.25em;
+	padding: 10px;
+}
+
+.resources {
+  background-color: #00bfff;
+	padding: 40px;
+	font-family: Roboto;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.resources h1 {
+	font-family: Ubuntu;
+	font-size: 1.4em;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #000;
+}
+
+.resources ul  {
+	list-style-type: none; 
+}
+
+.resources ul li a {
+	text-decoration: none;
+	color: white; 
+}
+
+.resources ul li  {
+  padding: 10px; 
+}
+
+.resources .icon {
+	color: black;
+	font-size: 1.25em;
+	padding: 10px;
+}
+
+@media only screen and (max-width: 767px) { 
+	.info img {
+	  width: 150px;
+	  height: 150px;
+  }
+
+  .info h1 {
+	  font-size: 2em;
+  }
+  .info h2 {
+	  font-size: 1em;
+  }
+
+  .education .row {
+  	font-size: 0.65em;
+  }
+
+   .experience .row {
+  	font-size: 0.5em;
+  }
+
+  .learning-strategies h1 {
+	  font-size: 0.75em;
+  }
+}
