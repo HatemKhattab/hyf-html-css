@@ -16,16 +16,41 @@ body {
   padding: 10px;
   margin: 10px;
   width: calc((100% / 4) - 40px);
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
  }
 
- #grid-flex {
-   display:flex;
-   flex-wrap: wrap;
- }
+#grid-flex {
+  display:flex;
+  flex-wrap: wrap; 
+}
 
- ul li:nth-of-type(n) {
+ul li:nth-of-type(n) {
   width: calc((100%/2)  - 40px);
 }
- ul li:nth-of-type(1) {
+
+ul li:nth-of-type(1) {
   width: calc(100%  - 40px);
-} 
+}
+
+@media (min-width: 480px ) {
+  ul li:nth-of-type(n) {
+    width: calc((100%/3)  - 40px);
+  }
+
+  ul li:nth-of-type(1), ul li:nth-of-type(2) {
+    width: calc((100%/2)  - 40px);
+  }
+}
+
+@media (min-width: 1024px ) {
+  ul li:nth-of-type(n) {
+    width: calc((100%/4)  - 40px);
+  }
+
+  ul li:nth-of-type(1) {
+    width: calc((100%/2)  - 40px);
+  }
+}
