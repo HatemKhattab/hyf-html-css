@@ -1,16 +1,4 @@
-body {
-  background-color: gainsboro;
-  flex-wrap: wrap;
-}
 
- ul {
-   list-style-type: none;
-   padding: 0;
- }
-
- img {
-  width: calc(80%); 
- }
 .grid-item {
   background-color: gray;
   padding: 10px;
