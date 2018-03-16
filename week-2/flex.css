@@ -1,0 +1,9 @@
+body {
+  background-color: gainsboro;
+}
+
+.grid-item {
+  background-color: gray;
+  padding: 10px;
+  margin: 10px;
+ }
