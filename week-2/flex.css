@@ -1,9 +1,31 @@
 body {
   background-color: gainsboro;
+  flex-wrap: wrap;
 }
 
+ ul {
+   list-style-type: none;
+   padding: 0;
+ }
+
+ img {
+  width: calc(80%); 
+ }
 .grid-item {
   background-color: gray;
   padding: 10px;
   margin: 10px;
+  width: calc((100% / 4) - 40px);
  }
+
+ #grid-flex {
+   display:flex;
+   flex-wrap: wrap;
+ }
+
+ ul li:nth-of-type(n) {
+  width: calc((100%/2)  - 40px);
+}
+ ul li:nth-of-type(1) {
+  width: calc(100%  - 40px);
+} 
