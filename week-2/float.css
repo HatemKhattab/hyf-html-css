@@ -27,7 +27,7 @@
  @media (min-width: 1024px ) {
   .grid-item:nth-child(n) {
     width: calc((100% / 4) - 40px);
-    min-height: 550px;
+    min-height: 615px;
     clear: none;
   }
   .grid-item:nth-child(1){
