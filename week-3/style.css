@@ -1,24 +1,30 @@
 body {
   margin: 0;
 }
-.portfolio{
-  margin: 0;
-}
 
-div{
-  height: 200px;
+.portfolio, .portfolio .row,p, ul, h1, h2{
+  margin: 0;
 }
 
 .info {
   background-color: cornflowerblue;
+  padding: 20px 0 20px 0;
+}
+
+.info img {
+  width: 70%;
+  border-radius: 50%;
+    
 }
 
 .experience {
   background-color: blanchedalmond;  
+  padding: 20px 0 20px 0;
 }
 
 .education {
-  background-color: chocolate;
+  background-color: darkred;
+  padding: 40px 0 40px 0;
 }
 
 .courses {
