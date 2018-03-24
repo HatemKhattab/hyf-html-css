@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+.portfolio{
+  margin: 0;
+}
+
+div{
+  height: 200px;
+}
+
+.info {
+  background-color: cornflowerblue;
+}
+
+.experience {
+  background-color: blanchedalmond;  
+}
+
+.education {
+  background-color: chocolate;
+}
+
+.courses {
+  background-color: aqua;
+}
+
+.skills {
+  background-color: beige;
+}
+
+.links {
+  background-color: grey;
+}
