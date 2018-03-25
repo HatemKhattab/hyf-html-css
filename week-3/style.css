@@ -6,35 +6,121 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-family: open Sans;
+}
+
+h2 {
+  font-family: roboto;
+  padding: 20px 0 20px 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  padding: 2px 0 2px 0;
+}
 .info {
-  background-color: cornflowerblue;
+  color: #2f3f70;
+  background-color: #deebf7;
   padding: 20px 0 20px 0;
 }
 
 .info img {
   width: 70%;
-  border-radius: 50%;
-    
+  border-radius: 50%; 
+}
+
+.info h1{
+  padding: 0;
+}
+
+.info h2{
+  color: #f7a13d;
+  padding: 0;
+  font-size: 20px;
 }
 
 .experience {
   background-color: blanchedalmond;  
   padding: 20px 0 20px 0;
+  font-family: roboto;
 }
 
 .education {
+  font-family: roboto;
+  color: #efbaaa;
   background-color: darkred;
   padding: 40px 0 40px 0;
 }
 
+.education p {
+  padding-left: 40px;
+}
+
 .courses {
+  font-family: roboto;
   background-color: aqua;
+  padding: 40px 0 40px 0;
+  background: url("images/keyboard-background.jpg") no-repeat center center;
 }
 
 .skills {
-  background-color: beige;
+  color: white;
+  padding: 40px 0 40px 0;
+  background: url("images/coding-background.jpg") no-repeat center center;
+  background-size: cover;
 }
 
-.links {
-  background-color: grey;
+.skills .skills-elements {
+  padding: 0 20px 0 20px;
+  font-family: roboto;
+}
+
+.skills span {
+  display: -webkit-inline-box;
+  margin: 10px 20px 10px 20px;
+  padding: 5px;
+  border: solid 2px #99f7c8;
+}
+
+.contact {
+  color: #c7ccc9;
+  background-color:#161917;
+  padding: 40px 0 40px 0;
+}
+
+.contact .icon {
+  padding: 10px;
+  font-size: 25px;
+}
+
+@media screen and (min-width: 768px){
+  .portfolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .experience, .courses, .skills, .education {
+    min-height: 30vh;
+  }
+
+  .info, .contact {
+    grid-column-end: span 2;
+  }
+
+  .info img {
+    width: 50%;
+  }
+
+  .info h1{
+    font-size: 30px;
+  }
+
+  .info h2{
+    font-size: 23px;
+  }
+
 }
